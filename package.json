@@ -1,0 +1,1 @@
+{"name":"amazon-backend","version":"1.0.0","description":"backend-ecommerce","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1","dev":"nodemon --exec ts-node src/app.ts"},"author":"","license":"ISC","devDependencies":{"nodemon":"^3.1.7","ts-node":"^10.9.2","typescript":"^5.6.3"},"dependencies":{"axios":"^1.7.7","cheerio":"^1.0.0","cors":"^2.8.5"}}
