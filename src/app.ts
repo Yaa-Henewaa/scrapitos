@@ -26,7 +26,7 @@ const requestHandler = async (req: IncomingMessage, res: ServerResponse) => {
     
     if (req.method === 'OPTIONS') {
         setCorsHeaders(res);
-        res.writeHead(200);
+        res.writeHead(204);
         res.end();
         return;
     }
