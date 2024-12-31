@@ -27,7 +27,7 @@ const sendJsonResponse = (res, statusCode, data) => {
 const requestHandler = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     if (req.method === 'OPTIONS') {
         setCorsHeaders(res);
-        res.writeHead(200);
+        res.writeHead(204);
         res.end();
         return;
     }
